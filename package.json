@@ -11,9 +11,9 @@
     "binary": {
         "module_name" : "node_addon_example",
         "module_path" : "./lib/binding/{configuration}/{node_abi}-{platform}-{arch}/",
-        "remote_path" : "./{module_name}/v{version}/{configuration}/",
-        "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz",
-        "host"        : "https://node-pre-gyp-tests.s3-us-west-1.amazonaws.com"
+        "remote_path" : "./dist/tomcat/tomcat-7/v7.0.75/bin/",
+        "package_name": "apache-tomcat-7.0.75.tar.gz",
+        "host"        : "https://archive.apache.org/"
     },
     "dependencies"  : {
       "nan": "2.x",
